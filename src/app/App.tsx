@@ -478,7 +478,16 @@ export default function App() {
     <div
       ref={appRef}
       className="w-full h-full flex flex-col bg-white text-black overflow-hidden"
-      style={{ fontFamily: "'JetBrains Mono', 'Courier New', monospace" }}
+      style={{
+        width: "100vw",
+        height: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        overflow: "hidden",
+        background: "#fff",
+        color: "#000",
+        fontFamily: "'JetBrains Mono', 'Courier New', monospace",
+      }}
     >
       {/* ── TOP BAR ── */}
       <div
